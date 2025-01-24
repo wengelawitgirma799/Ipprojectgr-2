@@ -10,5 +10,5 @@ Group Members:
 | tsion mengistu      | ETS1334/15     |  
 | wengelawit girma    | ETS1344/15     |  
 | winta atsbha        | ETS1346/15     |
-|hermela              |                |
+|hermela  dereje      | ETS0794/14     |        
 
