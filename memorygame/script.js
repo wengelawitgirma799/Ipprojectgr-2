@@ -6,7 +6,7 @@ const selectCellsNumber = document.querySelector('.select-cells-number');
 // Initialize the game with the default value
 let game = new Controller(parseInt(selectCellsNumber.value));
 
-const timerContent = <span>00</span>min <span>00</span>sec;
+const timerContent = `<span>00</span>min <span>00</span>sec`;
 let prevGame;
 
 // Listen for changes in the dropdown to reset the game

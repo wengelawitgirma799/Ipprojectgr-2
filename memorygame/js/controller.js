@@ -92,10 +92,10 @@ class Controller {
         this.time = setInterval(() => {
             const seconds = int % 60;
             timer.children[1].innerHTML =
-                seconds > 9 ? seconds : 0${seconds};
+                seconds > 9 ? seconds :` 0${seconds}`;
             const minutes = Math.floor(int / 60);
             timer.children[0].innerHTML =
-                minutes > 9 ? minutes : 0${minutes};
+                minutes > 9 ? minutes : `0${minutes}`;
             int++;
         }, 1000);
     }
